@@ -1,0 +1,19 @@
+//
+//  SampleProject.pch
+//  SampleProject
+//
+//  Created by admin on 12/03/18.
+//  Copyright © 2018 namdev. All rights reserved.
+//
+
+#ifndef SampleProject_pch
+#define SampleProject_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* SampleProject_pch */
+
+#ifdef __OBJC__
+#define  _LS(key) NSLocalizedString(key, nil)
+#endif
